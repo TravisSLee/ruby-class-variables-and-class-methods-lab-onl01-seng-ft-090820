@@ -19,8 +19,9 @@ class Song
   end
   
   def self.artists
-    if !(@@artists.include?(@artist))
-      @@artists << @artist
+    if !(@@artists.include?(artist))
+      @@artists << artist
     end
+    @@artists
   end
 end
