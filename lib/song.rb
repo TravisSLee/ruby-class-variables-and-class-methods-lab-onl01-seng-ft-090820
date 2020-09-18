@@ -19,5 +19,5 @@ class Song
   end
   
   def self.artists
-    if !()
+    if !(@@artists.include?(artist))
 end
