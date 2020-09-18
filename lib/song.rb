@@ -29,6 +29,6 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genres.uniq each do |genre|
-      if
+      
   end
 end
