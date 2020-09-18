@@ -20,4 +20,7 @@ class Song
   
   def self.artists
     if !(@@artists.include?(artist))
+      @@artists << artist
+    end
+  end
 end
